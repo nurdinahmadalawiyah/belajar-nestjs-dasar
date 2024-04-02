@@ -55,7 +55,7 @@ export class UserController {
   @Get('/hello')
   async sayHello(
     @Query('first_name') firstName: string,
-    @Query('last_name') lastName: number,
+    @Query('last_name') lastName: string,
   ): Promise<string> {
     return `Hello ${firstName} ${lastName}`;
   }
