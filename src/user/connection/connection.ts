@@ -9,13 +9,13 @@ export class Connection {
 @Injectable()
 export class MySQLConnection extends Connection {
   getName(): string {
-    return super.getName();
+    return 'MySQL';
   }
 }
 
 @Injectable()
 export class MongoDBConnection extends Connection {
   getName(): string {
-    return super.getName();
+    return 'MongoDB';
   }
 }
