@@ -5,3 +5,8 @@ Content-Type: application/json
   "username" : "nurdin",
   "password" : "nurdin"
 }
+
+###
+
+GET http://localhost:8000/api/users/current
+x-username: 3
